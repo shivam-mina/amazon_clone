@@ -1,0 +1,40 @@
+.product {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  min-width: 100px;
+  max-height: 400px;
+  margin: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+.product__price {
+  margin-top: 5px;
+  display: flex;
+}
+.product__rating {
+  display: flex;
+}
+.star {
+  color: goldenrod;
+}
+.product__image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+.addtoBasket {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #b3913a #caa037 #846a29;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
